@@ -8,5 +8,10 @@
     "start": "node server.js"
   },
   "author": "ravi",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "color": "^4.2.3",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  }
 }

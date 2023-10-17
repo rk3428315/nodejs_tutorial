@@ -7,9 +7,9 @@ const fs = require('fs');
 // To create file  
 // fs.writeFileSync("server.js","created");
 // fs.writeFileSync("calc.js","export.add = function(x,y){return x+y;}");
-// fs("Html/index.html","!");
+// fs("Html/i.html","!");
 
-fs.readFile('./index.html', 'utf8', (err, data) => {
+fs.readFile('./i.html', 'utf8', (err, data) => {
   if (err) {
     console.error(err);
     return;
