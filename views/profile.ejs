@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Profile</title>
+</head>
+
+<body>
+    <!-- This is use to bind the variable value in ejs like in angular we bind like {{}}
+    same as here we here bind like <%= %> -->
+    <%- include('common/header'); %>
+        <h1>Name: <%= user.name %>
+        </h1>
+        <h1>Email: <%= user.email %>
+        </h1>
+        <h1>City: <%= user.city %>
+        </h1>
+
+        <!--How to iterate array using loop -->
+        <ul>
+            <% user.skills.forEach((data)=>{ %>
+                <li>
+                    <%= data %>
+                </li>
+
+                <% }) %>
+        </ul>
+
+</body>
+
+</html>

@@ -20,7 +20,7 @@ app.get('/help',(req,res)=>{
 
 // Deafult show page if route will be wrong
 app.get('*',(req,res)=>{
-    res.sendFile(`${publicPath}/index.html`)
+    res.sendFile(`${publicPath}/nopage.html`)
 });
 
 app.listen(5000);
