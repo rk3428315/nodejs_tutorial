@@ -9,7 +9,7 @@ const fs = require('fs');
 // fs.writeFileSync("calc.js","export.add = function(x,y){return x+y;}");
 // fs("Html/i.html","!");
 
-fs.readFile('./i.html', 'utf8', (err, data) => {
+fs.readFile('./index.html', 'utf8', (err, data) => {
   if (err) {
     console.error(err);
     return;

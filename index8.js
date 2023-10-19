@@ -5,6 +5,7 @@ const app = express();
 
 // To get the path in variable using path module
 const publicPath = path.join(__dirname, '8.public');
+// console.log(publicPath);
 
 // To access the about html file staticly
 // express.static function load the static content page and 

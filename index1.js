@@ -16,7 +16,7 @@ for (let i = 0; i < 5; i++) {
     // To delete the file from directory or folder
     //   fs.unlinkSync(dirPath + "/Hello" + i + ".txt");
 }
-//----------End------------
+//----------End-----------  -
 
 // To show the all created file
 fs.readdir(dirPath, (err, data) => {
