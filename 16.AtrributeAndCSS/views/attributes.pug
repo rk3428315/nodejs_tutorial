@@ -1,0 +1,18 @@
+doctype html
+html
+    head
+    body
+        // To 
+        input( type="password" name="inputName" data-js=`${ 5 > 36 ? "OK" : "Not OK"}`)
+        
+        // To create multipe class in 
+        - const myClasses = ["class1","class2","class3"]
+        div.class4.class5(class = myClasses)
+        
+        // To create multipe class in 
+        - const myStyle = {"color":"red", "background-color":"voilet"}
+        div(style = myStyle) This is a div.
+        
+        -const myAttributes = { "src":"/Images/Screenshot.png", "alt":"Image" }
+        img&attributes(myAttributes)
+        input(type="text" disabled = true)
